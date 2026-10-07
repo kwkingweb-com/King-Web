@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#be4b08">
+  <meta name="description" content="King Web: sites, CRM e tráfego pago para o seu negócio crescer.">
+  <title>King Web | Sites completos</title>
+  <link rel="icon" type="image/png" href="img/logo.png">
+  <link rel="preload" href="img/gladiador.png" as="image" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&amp;family=Cormorant+Garamond:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="site-frame">
+    <header class="header container">
+      <a class="brand" href="#inicio" aria-label="King Web, início" data-go="inicio">
+        <img class="brand__logo" src="img/logo.png" alt="" width="1254" height="1254">
+        <span class="brand__type">
+          <span class="brand__name">KING <span>WEB</span></span>
+          <small>SITES QUE TRANSFORMAM IDEIAS<br>EM IMPÉRIOS DIGITAIS</small>
+        </span>
+      </a>
+
+      <nav class="navigation" id="navigation" aria-label="Navegação principal">
+        <a href="#inicio" data-go="inicio" aria-current="location">Início</a>
+        <a href="#portfolio" data-go="portfolio">Portfólio</a>
+        <button type="button" id="services-button">Serviços</button>
+        <a href="#contato" data-go="contato">Contato</a>
+      </nav>
+
+      <button class="menu-button" id="menu-button" type="button" aria-label="Abrir menu" aria-controls="navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main class="stage">
+      <section class="hero container" id="inicio" aria-labelledby="hero-title">
+        <div class="hero__figure" aria-hidden="true">
+          <img src="img/gladiador.png" alt="" width="1024" height="1536" fetchpriority="high">
+        </div>
+        <div class="hero__copy">
+          <p class="hero__eyebrow">SITES COMPLETOS</p>
+          <h1 id="hero-title" tabindex="-1">KING <span>WEB</span></h1>
+          <p class="hero__description">Criamos sites, CRM e tráfego pago para o seu negócio crescer.</p>
+          <a class="cta" href="#portfolio" data-go="portfolio">Ver Portfólio <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="portfolio container" id="portfolio" aria-labelledby="portfolio-title">
+        <h2 id="portfolio-title">PORTFÓLIO</h2>
+
+        <div class="filters" role="group" aria-label="Categorias do portfólio">
+          <button class="filter" type="button" data-filter="web" aria-pressed="true">Web Design</button>
+          <button class="filter" type="button" data-filter="mobile" aria-pressed="false">Mobile Apps</button>
+          <button class="filter" type="button" data-filter="uiux" aria-pressed="false">UI/UX Prototypes</button>
+        </div>
+
+        <div class="carousel" id="carousel" role="region" aria-roledescription="carrossel" aria-label="Modelos do portfólio">
+          <button class="carousel__arrow carousel__arrow--previous" type="button" id="previous-project" aria-label="Modelos anteriores" aria-controls="portfolio-track">
+            <span aria-hidden="true">‹</span>
+          </button>
+
+          <div class="carousel__viewport" id="portfolio-viewport" tabindex="0" aria-label="Prévias do portfólio. Use as setas para navegar.">
+            <div class="carousel__track" id="portfolio-track">
+              <figure class="project-card" data-categories="web" data-title="Pousadas e Hotéis">
+                <button class="project-card__open" type="button" aria-label="Ampliar modelo de Pousadas e Hotéis">
+                  <img src="img/portfolio-pousadas.png" alt="Modelo de site para pousada em computador e celular" width="1860" height="846" draggable="false">
+                </button>
+                <figcaption>Pousadas e Hotéis</figcaption>
+              </figure>
+              <figure class="project-card" data-categories="web" data-title="Lojas Online">
+                <button class="project-card__open" type="button" aria-label="Ampliar modelo de Lojas Online">
+                  <img src="img/portfolio-lojas.png" alt="Modelo de loja de roupas em computador e celular" width="1860" height="846" draggable="false">
+                </button>
+                <figcaption>Lojas Online</figcaption>
+              </figure>
+              <figure class="project-card" data-categories="web" data-title="Microempresas">
+                <button class="project-card__open" type="button" aria-label="Ampliar modelo de Microempresas">
+                  <img src="img/portfolio-empresas.png" alt="Modelo de site automotivo em computador e celular" width="1860" height="846" loading="lazy" draggable="false">
+                </button>
+                <figcaption>Microempresas</figcaption>
+              </figure>
+              <figure class="project-card" data-categories="web" data-title="Vidraçarias">
+                <button class="project-card__open" type="button" aria-label="Ampliar modelo de Vidraçarias">
+                  <img src="img/portfolio-vidracarias.png" alt="Modelo de site para vidraçaria em computador e celular" width="1860" height="846" loading="lazy" draggable="false">
+                </button>
+                <figcaption>Vidraçarias</figcaption>
+              </figure>
+              <figure class="project-card" data-categories="web" data-title="Marmorarias">
+                <button class="project-card__open" type="button" aria-label="Ampliar modelo de Marmorarias">
+                  <img src="img/portfolio-marmorarias.png" alt="Modelo de site para marmoraria em computador e celular" width="1860" height="846" loading="lazy" draggable="false">
+                </button>
+                <figcaption>Marmorarias</figcaption>
+              </figure>
+              <figure class="project-card" data-categories="web" data-title="Turismo e Hospedagem">
+                <button class="project-card__open" type="button" aria-label="Ampliar modelo de Turismo e Hospedagem">
+                  <img src="img/portfolio-turismo.png" alt="Modelo de site para pousada e barraca de praia em computador e celular" width="1860" height="846" loading="lazy" draggable="false">
+                </button>
+                <figcaption>Turismo e Hospedagem</figcaption>
+              </figure>
+              <figure class="project-card" data-categories="mobile uiux" data-title="Interfaces para Aplicativos" hidden>
+                <button class="project-card__open" type="button" aria-label="Ampliar interfaces para aplicativos">
+                  <img src="img/portfolio-mobile.png" alt="Três conceitos de interfaces para aplicativos" width="1774" height="887" loading="lazy" draggable="false">
+                </button>
+                <figcaption>Interfaces para Aplicativos</figcaption>
+              </figure>
+              <figure class="project-card" data-categories="uiux" data-title="Interfaces para Sites" hidden>
+                <button class="project-card__open" type="button" aria-label="Ampliar interfaces para sites">
+                  <img src="img/portfolio-web.png" alt="Conceito visual de uma interface de jogos" width="1774" height="887" loading="lazy" draggable="false">
+                </button>
+                <figcaption>Interfaces para Sites</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <button class="carousel__arrow carousel__arrow--next" type="button" id="next-project" aria-label="Próximos modelos" aria-controls="portfolio-track">
+            <span aria-hidden="true">›</span>
+          </button>
+        </div>
+
+        <div class="portfolio__counter" id="portfolio-counter" aria-hidden="true">01 / 03</div>
+        <p class="sr-only" id="portfolio-status" role="status" aria-atomic="true"></p>
+      </section>
+    </main>
+  </div>
+
+
+  <section class="lower-site" aria-label="Contato e informações da King Web">
+    <section class="contact-section section-shell" id="contato" aria-labelledby="contact-title">
+      <div class="contact-section__warrior" aria-hidden="true">
+        <img src="img/gladiador-contato.png" alt="" width="1024" height="1536" loading="lazy">
+      </div>
+
+      <div class="contact-grid container">
+        <div class="contact-copy">
+          <p class="section-kicker"><span></span> VAMOS CONVERSAR? <span></span></p>
+          <h2 id="contact-title">ENTRE EM <strong>CONTATO</strong></h2>
+          <p class="contact-copy__lead">Tem uma ideia, um projeto ou quer fazer um orçamento? Estamos prontos para te atender e tirar todas as suas dúvidas.</p>
+
+          <div class="contact-channels" aria-label="Canais de atendimento">
+            <a class="channel-card" id="whatsapp-shortcut" href="https://api.whatsapp.com/send?text=Ol%C3%A1%20King%20Web!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+              <span class="channel-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M20.5 3.5A11 11 0 0 0 3.2 16.8L2 22l5.3-1.2A11 11 0 0 0 20.5 3.5Zm-8.4 16a8.6 8.6 0 0 1-4.4-1.2l-.3-.2-3.1.7.7-3-.2-.3A8.7 8.7 0 1 1 12 19.5Zm4.8-6.4c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.2-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1a7 7 0 0 1-3.5-3.1c-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.6l-.8-2c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.4-.2.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3 4.8 4.2 1.8.8 2.5.8 3.4.7 1-.2 1.6-.7 1.8-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.3Z"/></svg>
+              </span>
+              <span><strong>WhatsApp</strong><small>Fale conosco pelo WhatsApp</small></span>
+            </a>
+
+            <div class="channel-card" role="group" aria-label="E-mail">
+              <span class="channel-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3.8 5h16.4A1.8 1.8 0 0 1 22 6.8v10.4a1.8 1.8 0 0 1-1.8 1.8H3.8A1.8 1.8 0 0 1 2 17.2V6.8A1.8 1.8 0 0 1 3.8 5Zm0 2.2 8.2 5.5 8.2-5.5V7L12 12.5 3.8 7v.2Z"/></svg>
+              </span>
+              <span><strong>E-mail</strong><small>Envie um e-mail direto para nós</small></span>
+            </div>
+
+            <div class="channel-card" role="group" aria-label="Horário de atendimento">
+              <span class="channel-card__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm1 5v4.6l3.2 1.9-1 1.7-4.2-2.5V7h2Z"/></svg>
+              </span>
+              <span><strong>Atendimento</strong><small>Segunda a Sábado · 8h às 18h</small></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="budget-card" aria-labelledby="budget-title">
+          <div class="budget-card__heading">
+            <img src="img/logo.png" alt="" width="1254" height="1254">
+            <div>
+              <h3 id="budget-title">SOLICITE SEU ORÇAMENTO</h3>
+              <p>Preencha os dados abaixo e conte sobre o seu projeto.</p>
+            </div>
+          </div>
+
+          <form class="budget-form" id="budget-form">
+            <label class="form-field">
+              <span class="form-field__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm7 8a7 7 0 0 0-14 0h14Z"/></svg></span>
+              <span class="sr-only">Seu nome</span>
+              <input type="text" name="name" placeholder="Seu nome" autocomplete="name" required>
+            </label>
+            <label class="form-field">
+              <span class="form-field__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3.8 5h16.4A1.8 1.8 0 0 1 22 6.8v10.4a1.8 1.8 0 0 1-1.8 1.8H3.8A1.8 1.8 0 0 1 2 17.2V6.8A1.8 1.8 0 0 1 3.8 5Zm0 2.2 8.2 5.5 8.2-5.5V7L12 12.5 3.8 7v.2Z"/></svg></span>
+              <span class="sr-only">Seu e-mail</span>
+              <input type="email" name="email" placeholder="Seu e-mail" autocomplete="email" required>
+            </label>
+            <label class="form-field">
+              <span class="form-field__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11 11 0 0 0 3.2 16.8L2 22l5.3-1.2A11 11 0 0 0 20.5 3.5Zm-8.4 16a8.6 8.6 0 0 1-4.4-1.2l-.3-.2-3.1.7.7-3-.2-.3A8.7 8.7 0 1 1 12 19.5Zm4.8-6.4c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.2-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1a7 7 0 0 1-3.5-3.1c-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.6l-.8-2c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.4-.2.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3 4.8 4.2 1.8.8 2.5.8 3.4.7 1-.2 1.6-.7 1.8-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.3Z"/></svg></span>
+              <span class="sr-only">Seu WhatsApp</span>
+              <input type="tel" name="phone" placeholder="Seu WhatsApp" autocomplete="tel" required>
+            </label>
+            <label class="form-field form-field--select">
+              <span class="form-field__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-8l-4.8 3.6A.75.75 0 0 1 6 20v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm2 5h12V7H6v2Zm0 4h8v-2H6v2Z"/></svg></span>
+              <span class="sr-only">Qual serviço você precisa?</span>
+              <select name="service" required>
+                <option value="" selected disabled>Qual serviço você precisa?</option>
+                <option>Site institucional</option>
+                <option>Landing page</option>
+                <option>Loja virtual</option>
+                <option>CRM / Sistema</option>
+                <option>Tráfego pago</option>
+                <option>Outro projeto</option>
+              </select>
+            </label>
+            <label class="form-field form-field--textarea">
+              <span class="form-field__icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-8l-4.8 3.6A.75.75 0 0 1 6 21v-3H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm2 5h12V7H6v2Zm0 4h9v-2H6v2Z"/></svg></span>
+              <span class="sr-only">Conte mais sobre o projeto</span>
+              <textarea name="message" rows="3" placeholder="Nos conte mais sobre o seu projeto..." required></textarea>
+            </label>
+            <button class="budget-submit" type="submit">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21.4 2.7-8.2 18a1 1 0 0 1-1.8 0l-3.2-6.6-6.6-3.2a1 1 0 0 1 0-1.8l18-8.2a1.3 1.3 0 0 1 1.8 1.8ZM8.9 12.4l3.1 6.4 6.5-14.2L4.3 11l4.6 1.4Zm0 0 6-5.2"/></svg>
+              <span>Enviar mensagem</span><b aria-hidden="true">→</b>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section-shell" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker"><span></span> DÚVIDAS FREQUENTES <span></span></p>
+          <h2 id="faq-title">PERGUNTAS <strong>FREQUENTES</strong></h2>
+          <p>Tire suas dúvidas antes de começar seu projeto.</p>
+        </div>
+
+        <div class="faq-grid">
+          <details class="faq-card">
+            <summary><span class="faq-card__icon">?</span><span class="faq-card__title">Quanto tempo leva para ficar pronto?</span><span class="faq-card__plus" aria-hidden="true"></span></summary>
+            <p>O prazo varia de acordo com o tipo de projeto, mas em média, entregamos em 7 a 15 dias.</p>
+          </details>
+          <details class="faq-card">
+            <summary><span class="faq-card__icon"><svg viewBox="0 0 24 24"><path d="m12 3 9 4-9 4-9-4 9-4Zm-7 8 7 3 7-3 2 1-9 4-9-4 2-1Zm0 5 7 3 7-3 2 1-9 4-9-4 2-1Z"/></svg></span><span class="faq-card__title">O que está incluso no valor?</span><span class="faq-card__plus" aria-hidden="true"></span></summary>
+            <p>O valor inclui o site completo, responsivo (celular e computador), otimizado para o Google e com suporte após a entrega.</p>
+          </details>
+          <details class="faq-card">
+            <summary><span class="faq-card__icon"><svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5.1 3.4 9.7 8 11 4.6-1.3 8-5.9 8-11V5l-8-3Zm-1 14-4-4 1.4-1.4L11 13.2l5-5L17.4 10 11 16Z"/></svg></span><span class="faq-card__title">O site é seguro?</span><span class="faq-card__plus" aria-hidden="true"></span></summary>
+            <p>Sim! Todos os sites são desenvolvidos com boas práticas de segurança e podem ser integrados com certificados SSL.</p>
+          </details>
+          <details class="faq-card">
+            <summary><span class="faq-card__icon"><svg viewBox="0 0 24 24"><path d="M3 5h18v14H3V5Zm2 4h14V7H5v2Zm0 7h5v-3H5v3Zm9 0h5v-3h-5v3Z"/></svg></span><span class="faq-card__title">Vocês trabalham com tráfego pago?</span><span class="faq-card__plus" aria-hidden="true"></span></summary>
+            <p>Sim, oferecemos gestão de tráfego pago para atrair mais visitantes e clientes para o seu negócio.</p>
+          </details>
+          <details class="faq-card">
+            <summary><span class="faq-card__icon"><svg viewBox="0 0 24 24"><path d="M7 2h10a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm1 3v14h8V5H8Zm3 15h2v1h-2v-1Z"/></svg></span><span class="faq-card__title">Vocês fazem sites para qualquer tipo de negócio?</span><span class="faq-card__plus" aria-hidden="true"></span></summary>
+            <p>Sim, criamos sites para lojas, pousadas, empresas, profissionais liberais e muito mais.</p>
+          </details>
+          <details class="faq-card">
+            <summary><span class="faq-card__icon"><svg viewBox="0 0 24 24"><path d="M10.6 13.4a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1.7 1.7 1.4 1.4L15 6.1a2 2 0 1 1 2.8 2.8l-3 3a2 2 0 0 1-2.8 0l-1.4 1.5Zm2.8-2.8a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1.7-1.7-1.4-1.4L9 17.9a2 2 0 0 1-2.8-2.8l3-3a2 2 0 0 1 2.8 0l1.4-1.5Z"/></svg></span><span class="faq-card__title">É possível integrar com redes sociais e WhatsApp?</span><span class="faq-card__plus" aria-hidden="true"></span></summary>
+            <p>Sim! O site pode ser integrado com suas redes sociais, WhatsApp e outras ferramentas que você precisar.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta section-shell" aria-labelledby="final-cta-title">
+      <div class="final-panel container">
+        <div class="final-panel__copy">
+          <p class="section-kicker section-kicker--left"><span></span> SEU PROJETO, NOSSO FOCO <span></span></p>
+          <h2 id="final-cta-title">VAMOS TRANSFORMAR<br>SUA IDEIA EM REALIDADE</h2>
+          <p>Conte com a King Web para criar um site profissional, moderno e que realmente gera resultados.</p>
+          <a class="cta final-panel__button" href="#contato">Solicitar orçamento <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="location-panel">
+          <div class="location-panel__title">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/></svg>
+            <span>NOSSA LOCALIZAÇÃO</span>
+          </div>
+          <div class="location-panel__content">
+            <div>
+              <div class="location-card">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/></svg>
+                <span><strong>Fortaleza - CE</strong><small>Atendimento em todo o Brasil</small></span>
+              </div>
+              <div class="benefits-row">
+                <div><span>⚡</span><small>Sites rápidos<br>e responsivos</small></div>
+                <div><span>♢</span><small>Suporte<br>especializado</small></div>
+                <div><span>☆</span><small>Qualidade<br>e confiança</small></div>
+              </div>
+            </div>
+            <div class="brazil-map-wrap" role="img" aria-label="Mapa do Brasil em linhas, com Fortaleza destacada e conexões para várias regiões do país">
+              <img class="brazil-map-network" src="img/mapa-brasil-fortaleza.svg" alt="" loading="lazy">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer section-shell">
+      <div class="site-footer__main container">
+        <a class="brand brand--footer" href="#inicio" aria-label="King Web, voltar ao início">
+          <img class="brand__logo" src="img/logo.png" alt="" width="1254" height="1254" loading="lazy">
+          <span class="brand__type"><span class="brand__name">KING <span>WEB</span></span><small>SITES QUE TRANSFORMAM IDEIAS<br>EM IMPÉRIOS DIGITAIS</small></span>
+        </a>
+        <nav class="footer-nav" aria-label="Navegação do rodapé">
+          <a href="#inicio">Início</a><a href="#portfolio">Portfólio</a><a href="#contato">Serviços</a><a href="#contato">Contato</a>
+        </nav>
+        <div class="footer-social">
+          <div class="footer-social__icons" aria-label="Redes sociais e contato">
+            <span aria-label="Instagram">◎</span><a href="https://api.whatsapp.com/send?text=Ol%C3%A1%20King%20Web!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="WhatsApp">◌</a><span aria-label="E-mail">✉</span>
+          </div>
+          <p>Mais que sites,<br>construímos o futuro<br>do seu negócio.</p>
+        </div>
+      </div>
+      <div class="site-footer__bottom container">
+        <small>© 2025 King Web. Todos os direitos reservados.</small>
+        <span><img src="img/logo.png" alt="" width="1254" height="1254"> KING WEB <i></i> SITES · CRM · TRÁFEGO PAGO</span>
+      </div>
+    </footer>
+  </section>
+
+  <dialog class="preview-dialog" id="preview-dialog" aria-labelledby="preview-title">
+    <div class="dialog__header">
+      <h2 id="preview-title">Prévia do modelo</h2>
+      <button class="dialog__close" type="button" data-close-dialog aria-label="Fechar prévia">×</button>
+    </div>
+    <img class="preview-dialog__image" id="preview-image" alt="">
+    <p class="preview-dialog__note">Modelo visual do portfólio</p>
+  </dialog>
+
+  <dialog class="services-dialog" id="services-dialog" aria-labelledby="services-title">
+    <div class="dialog__header">
+      <h2 id="services-title">Soluções King Web</h2>
+      <button class="dialog__close" type="button" data-close-dialog aria-label="Fechar serviços">×</button>
+    </div>
+    <ul class="services-list">
+      <li><strong>Sites e landing pages</strong><span>Apresentação profissional para sua empresa no computador e no celular.</span></li>
+      <li><strong>CRM</strong><span>Organização de contatos, atendimentos e oportunidades.</span></li>
+      <li><strong>Tráfego pago</strong><span>Campanhas para apresentar seu negócio a novos clientes.</span></li>
+    </ul>
+  </dialog>
+</body>
+</html>

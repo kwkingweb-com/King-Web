@@ -1,0 +1,59 @@
+KING WEB — SITE COMPLETO AJUSTADO
+
+COMO ABRIR
+1. Extraia o ZIP inteiro.
+2. Entre na pasta king-web-completo.
+3. Abra index.html no navegador com dois cliques.
+
+Não precisa instalar nada. Também funciona no XAMPP e em hospedagem HTML.
+
+O QUE FOI MANTIDO
+- A primeira tela original foi preservada: hero, gladiador, portfólio, filtros,
+  carrossel, menu e modais continuam funcionando.
+- Nenhum arquivo de imagem já existente foi removido.
+
+O QUE FOI ADICIONADO ABAIXO DA PRIMEIRA TELA
+- Seção profissional de contato inspirada fielmente na referência enviada.
+- Formulário de orçamento responsivo.
+- Atalhos de WhatsApp, e-mail e horário de atendimento.
+- FAQ com 6 perguntas em cards/accordion.
+- Bloco final "Vamos transformar sua ideia em realidade".
+- Localização Fortaleza - CE + atendimento em todo o Brasil.
+- Mapa estilizado do Brasil e três diferenciais.
+- Rodapé completo com marca, navegação e contatos.
+- Versões responsivas específicas para desktop, tablet e celular.
+
+ORGANIZAÇÃO
+- index.html: estrutura e conteúdo.
+- css/style.css: visual, animações e responsividade.
+- js/script.js: menu, carrossel, filtros, modais e formulário.
+- img/: todas as imagens usadas pelo site.
+
+IMAGENS PRINCIPAIS
+- logo.png
+- fundo.png
+- gladiador.png
+- gladiador-contato.png
+- portfolio-pousadas.png
+- portfolio-lojas.png
+- portfolio-empresas.png
+- portfolio-vidracarias.png
+- portfolio-marmorarias.png
+- portfolio-turismo.png
+- portfolio-mobile.png
+- portfolio-web.png
+
+WHATSAPP
+O formulário monta automaticamente uma mensagem profissional com nome, e-mail,
+WhatsApp, serviço escolhido e descrição do projeto. Como nenhum número comercial
+real foi informado, ele abre o WhatsApp com a mensagem pronta sem inventar um
+número. Para enviar direto para um número específico, abra js/script.js e preencha:
+
+const WHATSAPP_NUMBER = "";
+
+Exemplo de formato: 5585999999999, sem +, espaços, traços ou parênteses.
+
+IMPORTANTE
+Mantenha as pastas css, js e img junto de index.html ao copiar ou hospedar.
+Todos os recursos visuais principais são locais e o projeto não depende de
+bibliotecas externas.
